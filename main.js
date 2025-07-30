@@ -1,2 +1,3 @@
 const x = "dfgggg"
-console.log('hello,world',x)
+const y = "gg"
+console.log('hello,world',x,y)

@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: my-smclone-app
 spec:
-  replicas: 2
+  replicas: 2 
   selector:
     matchLabels:
       app: my-smclone-app
@@ -16,4 +16,4 @@ spec:
         - name: node-container
           image: noorhalabi/my-smclone-app
           ports:
-            - containerPort: 8080
+            - containerPort: 8081
