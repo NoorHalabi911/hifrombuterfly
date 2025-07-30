@@ -1,3 +1,3 @@
 const x = "dfgggg"
-const y = "gg"
+const y = "g"
 console.log('hello,world',x,y)
